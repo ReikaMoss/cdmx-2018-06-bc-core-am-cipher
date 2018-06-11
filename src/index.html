@@ -2,12 +2,39 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Cesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+<header>
+<h1>Cesar Cipher </h1>
+<h2>¡Bienvenido!</h2>
+</header>
+
+<section id="contenido">
+
+<div id="mensaje">
+  Ingrese su mensaje: <input type="text" id="perrito" placeholder="Ingrese su mensaje">
+</div>
+
+<div id="key">
+  Ingrese key: <input type="text" id="input_key" placeholder="Ingrese key">
+    <input type="submit" value="Cifrar" onclick="cifrado()">
+    <input type="submit" value="Descifrar" onclick="descifrado()">
+
+</div>
+
+<div id="mensajeCifrado">
+  El mensaje cifrado es: <input type="text" id="resultadoCifrado" placeholder="El mensaje cifrado es:">
+
+</div>
+
+ <div id= "mensajeDescifrado">
+  El mensaje descifrado es: <input type="text" id="resultadoDescifrado" placeholder="El mensaje descifrado es">
+</div>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+
 </html>

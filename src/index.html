@@ -6,35 +6,28 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
-<header>
-<h1>Cesar Cipher </h1>
-<h2>¡Bienvenido!</h2>
-</header>
+    <header>
+      <h1> Cesar Cipher </h1>
+      <h2> ¡Bienvenido! </h2>
+    </header>
+  <div id="root"></div>
 
-<section id="contenido">
+  <section id="Contenido">
+  <div id="mensaje">
+  Ingresa mensaje: <input type="text" id="input_mensaje" placeholder="Ingresa mensaje">
+  <input type="submit"  value="Cifrar" onclick="cifrado()">
+  <input type="submit" value="Descifrar" onclick="descifrado()">
+  </div>
 
-<div id="mensaje">
-  Ingrese su mensaje: <input type="text" id="perrito" placeholder="Ingrese su mensaje">
-</div>
+  <div id="mensajeCifrado">
+    El mensaje cifrado es: <input type="text" id="resultadoCifrado" placeholder="El mensaje cifrado es">
+  </div>
 
-<div id="key">
-  Ingrese key: <input type="text" id="input_key" placeholder="Ingrese key">
-    <input type="submit" value="Cifrar" onclick="cifrado()">
-    <input type="submit" value="Descifrar" onclick="descifrado()">
+  <div id="mensajeDescifrado">
+    El mensaje descifrado es: <input type="text"  id="resultadoDescifrado" placeholder="El mensaje descifrado es">
+  </div>
 
-</div>
-
-<div id="mensajeCifrado">
-  El mensaje cifrado es: <input type="text" id="resultadoCifrado" placeholder="El mensaje cifrado es:">
-
-</div>
-
- <div id= "mensajeDescifrado">
-  El mensaje descifrado es: <input type="text" id="resultadoDescifrado" placeholder="El mensaje descifrado es">
-</div>
-
-<script type="text/javascript" src="index.js"></script>
-</body>
-
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>

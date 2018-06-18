@@ -2,31 +2,37 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Cesar Cipher</title>
+    <title>Cipher Girls</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
   </head>
   <body>
     <header>
-      <h1> Cesar Cipher </h1>
-      <h2> ¡Bienvenido! </h2>
-    </header>
+    <h1 class="centrar"> Cipher Girls </h1>
+    <h2 class="centrar"> ¡Bienvenida! </h2>
+  </header>
   <div id="root"></div>
 
-  <section id="Contenido">
+  <div class="contenedor">
+  <p>Sabemos que los secretos de las chicas son importantes por eso Cipher Girls te ayudara a cifrar y descifrar los mensajes que recibas y envíes.</p>
+  <p>Top Secret!<p>
+
   <div id="mensaje">
-  Ingresa mensaje: <input type="text" id="input_mensaje" placeholder="Ingresa mensaje">
-  <input type="submit"  value="Cifrar" onclick="cifrado()">
-  <input type="submit" value="Descifrar" onclick="descifrado()">
+  Ingresa el mensaje: <input type="text" id="input_mensaje" placeholder="Ingresa el mensaje">
+  <input type="submit" class="btn btn-dark" value="Cifrar" onclick="cifrado()">
+  <input type="submit" class="btn btn-dark" value="Descifrar" onclick="descifrado()">
   </div>
 
   <div id="mensajeCifrado">
-    El mensaje cifrado es: <input type="text" id="resultadoCifrado" placeholder="El mensaje cifrado es">
+  El mensaje cifrado es: <input type="text" id="resultadoCifrado" placeholder="El mensaje cifrado es">
   </div>
 
   <div id="mensajeDescifrado">
-    El mensaje descifrado es: <input type="text"  id="resultadoDescifrado" placeholder="El mensaje descifrado es">
+  El mensaje descifrado es: <input type="text"  id="resultadoDescifrado" placeholder="El mensaje descifrado es">
   </div>
-
+</div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

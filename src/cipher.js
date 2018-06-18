@@ -10,7 +10,7 @@ insertarMensaje = document.getElementById('input_mensaje').value;
  for (let i = 0; i < insertarMensaje.length; i++) {
   // If para que no acepte números
      if   (parseInt(insertarMensaje[i]) %1 === 0){
-          alert("No son validos números");
+          alert("Ups, no son validos los números");
         }
   // Para que otorgue espacios en el texto
      else if (insertarMensaje.charCodeAt(i)===32){

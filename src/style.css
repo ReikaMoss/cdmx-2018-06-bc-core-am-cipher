@@ -1,0 +1,23 @@
+body {
+  background-image: url(https://i.pinimg.com/originals/46/58/6f/46586f65f6e4502a4748ba6c7934fae3.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.centrar {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  margin: 100px;
+}
+
+.contenedor {
+text-align: center;
+margin: 150px;
+font-family: 'Playball', cursive;
+font-size: 25px;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+@media (min-width: 1200px) { ... }

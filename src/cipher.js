@@ -1,7 +1,7 @@
 //window.cipher = {
   // ...
 //};
-const cifrado = (insertarMensaje) => {
+/*const cifrado = (insertarMensaje) => {
 insertarMensaje = document.getElementById('input_mensaje').value;
 
 
@@ -73,3 +73,4 @@ insertarMensaje = document.getElementById('input_mensaje').value;
 
   document.getElementById('resultadoDescifrado').value=descifradoCesar;
   }
+*/

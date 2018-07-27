@@ -1,6 +1,4 @@
-//window.cipher = {
-  // ...
-//};
+
 const cifrado = (insertarMensaje) => {
   //Obtenemos el valor que el usuario ingreso en el "input mensaje", y ese valor lo guardamos en la var insertaMensaje
 insertarMensaje = document.getElementById('input_mensaje').value;

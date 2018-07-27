@@ -2,7 +2,7 @@
 
 ## Preámbulo
 
-La mayoria de las mujeres quieren contar lo que les sucede ya sean alegrias, angustias, miedos o simplemente una noche de pasion ya que guardarse para una misma una noche de pasion es algo del pasado. La mayoria de las mujeres les encanta hablar y diseccionar sus momentos, pensando en ello Cipher Girls es una app diseñada para que puedan contar sus secretos más intimos a sus amigas sin que sus parejas o terceras personas puedan enterarse de ellos, adios a ocultar el telefono o alejarte cuando recibes mensajes de caracter intimo.  Top Secret!    
+La mayoria de las mujeres quieren contar lo que les sucede ya sean alegrias, angustias, miedos,  les encanta hablar y diseccionar sus momentos, pensando en ello Cipher Girls es una app diseñada para que puedan contar sus secretos más intimos a sus amigas sin que sus parejas o terceras personas puedan enterarse de ellos, adios a ocultar el telefono o alejarte cuando recibes mensajes de caracter intimo.  Top Secret!
 
 
 ## Introducción
